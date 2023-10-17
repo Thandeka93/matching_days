@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    margin: 0;
+}
+
+.date-selector {
+    margin: 20px 0;
+}
+
+input[type="date"] {
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+.day-bar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #eee;
+    padding: 10px 0;
+}
+
+.day-name {
+    width: 14%;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.green {
+    background-color: green;
+}
+
+.orange {
+    background-color: orange;
+}
